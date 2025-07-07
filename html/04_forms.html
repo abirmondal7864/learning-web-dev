@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+  <div>
+    <h2>Enter details</h2>
+    <form action="">
+        <label for="Email"> <!-- label is used to show the name of the input field -->
+            Email:      <!-- input field name -->
+            <input placeholder="abcd@outlook.com" type="email" name="Email" id=""> <!-- email type is used to input the email -->
+        </label>
+        <label for="Password">
+            Password:
+            <input placeholder="password!@#$1234" type="password" name="Password" id=""> <!-- password type is used to hide the input -->
+        </label>
+        <label for="Phone">
+            Phone:
+            <input placeholder="eg. 9876543210" type="tel" name="Phone" id=""> <!-- tel type is used to input the phone number -->
+        </label>
+        <label for="DOB">
+            DOB:
+            <input type="date" name="DOB" id=""> <!-- date type is used to select the date -->
+        </label>
+        <label for="Qualification">
+            Qualification:
+            <textarea placeholder="customizable writing area" name="Qualification" id="" cols="30" rows="10"></textarea> <!-- textarea is used to input the large text --> 
+        </label>
+        <label for="Games">
+            Cricket: <input type="checkbox" name="Cricket" id="">   <!-- checkbox is used to select the multiple options -->
+            Football: <input type="radio" name="Football" id="">    <!-- radio is used to select the single option -->
+        </label>
+        <label for="Sex">
+                <select name="Sex" id="">   <!-- select is used to select the option from the dropdown -->
+                    <option value="Male">Male</option> <!-- option is used to define the option in the dropdown -->
+                    <option value="Female">Female </option>
+                    <option value="Others">Others </option>
+                </select>
+        </label>
+
+        <label for="Image"> <!-- image type is used to upload the image -->
+            Image:
+            <input type="file" name="Image" id="">
+        </label>
+
+        <label for="Color"> <!-- color type is used to select the color -->
+            Favorite Color:
+            <input type="color" name="Color" id="">
+        </label>
+        
+        <label for="Range"> <!-- range type is used to select the range -->
+            Range:
+            <input type="range" name="Range" id="">
+        </label>
+
+        <label for="Time"> <!-- time type is used to select the time -->
+            Time:
+            <input type="time" name="Time" id="">
+        </label>
+        <label for="URL"> <!-- url type is used to input the url -->
+           Linkdin URL:
+            <input placeholder="https://www.linkedin.com/in/abir-mondal-2636b51b8/" type="url" name="URL" id="">
+        </label>
+        <label for="Search"> <!-- search type is used to input the search -->
+            Search:
+            <input placeholder="anything" type="search" name="Search" id="">
+        </label>
+        <label  for="Number"> <!-- number type is used to input the number -->
+            Favorite Number:
+            <input placeholder="143" type="number" name="Number" id="">
+        </label>
+         
+
+
+        <label for="Reset">
+            <input type="reset" value="Reset"> <!-- reset is used to reset the form -->
+        </label>
+        <label for="Submit">
+            <input type="submit" value="Submit"> <!-- submit is used to submit the form -->
+        </label>
+
+            
+    </form>
+    
+  </div>
+   
+</body>
+</html>

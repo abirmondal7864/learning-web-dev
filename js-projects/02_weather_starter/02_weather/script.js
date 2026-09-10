@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const descriptionDisplay = document.getElementById("description");
   const errorMessage = document.getElementById("error-message");
 
-  const API_KEY = "226553836605486487081936251704"; //env variables
+  const API_KEY = "YOUR_WEATHER_API_KEY"; // Replace with your WeatherAPI key
   getWeatherBtn.addEventListener("click", async () => {
     const city = cityInput.value.trim(); //removes white spaces before or after
     if (!city) return; //if no city entered
